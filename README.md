@@ -12,5 +12,5 @@ Welcome to my personal repository dedicated exclusively to Verilog experiments, 
 * **Simulation/Synthesis Tools:** Xilinx Vivado
 
 ## 📁 Repository Structure
-* `/combinational/` - Adders, multiplexers, decoders, and ALUs.
-* `/sequential/` - Flip-flops, registers, counters, and finite state machines (FSM).
+* `/Combinational-Circuits/` - Adders, multiplexers, decoders, and ALUs.
+* `/Sequential-Circuits/` - Flip-flops, registers, counters, and finite state machines (FSM).
