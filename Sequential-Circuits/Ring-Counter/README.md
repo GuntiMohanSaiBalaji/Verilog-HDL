@@ -20,13 +20,13 @@ It is essentially a **shift register** with the output of the last flip-flop fed
 
 ## 📊 Example (4-bit Ring Counter)
 
- Clock  Q1  Q2  Q3  Q4 
- 
- 0      1   0   0   0  
- 1      0   1   0   0  
- 2      0   0   1   0  
- 3      0   0   0   1  
- 4      1   0   0   0  
+Clock Pulse      Q1   Q2   Q3   Q4  
+Initial          1    0    0    0  
+1st Pulse        0    1    0    0  
+2nd Pulse        0    0    1    0  
+3rd Pulse        0    0    0    1  
+4th Pulse        1    0    0    0  
+
  
 
 ## ✅ Advantages
