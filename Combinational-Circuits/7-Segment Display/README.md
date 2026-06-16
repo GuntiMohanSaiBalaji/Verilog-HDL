@@ -15,7 +15,7 @@ It consists of **seven LEDs (segments)** arranged in a figure-eight pattern, lab
 ---
 
 ## 📊 Segment Layout
-<img src="Segment-labeled.png" alt="7-Segment Layout" align="right" width="180"/>
+<img src="Segment-labeled.png" alt="7-Segment Layout" align="right" width="120"/>
 
 Segments are labeled as:  
 - **a** (top)  
@@ -36,12 +36,15 @@ Segments are labeled as:
 Top row → Digits 0–9  
 Bottom row → Hex characters A–F  
 
+
 ---
 
 ## 🎞️ Animated Representation
-<img src="7-segments_Indicator.gif" alt="7-Segment GIF" align="right" width="220"/>
+<img src="7-segments_Indicator.gif" alt="7-Segment GIF" align="right" width="120"/>
 
 This GIF shows how digits and hex characters light up on the display.
+
+
 
 
 ---
