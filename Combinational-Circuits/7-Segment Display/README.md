@@ -15,7 +15,7 @@ It consists of **seven LEDs (segments)** arranged in a figure-eight pattern, lab
 ---
 
 ## 📊 Segment Layout
-<img src="Segment-labeled.png" alt="7-Segment Layout" align="right" width="200"/>
+<img src="Segment-labeled.png" alt="7-Segment Layout" align="right" width="180"/>
 
 Segments are labeled as:  
 - **a** (top)  
@@ -25,6 +25,7 @@ Segments are labeled as:
 - **e** (bottom-left)  
 - **f** (top-left)  
 - **g** (middle)  
+
 
 
 ---
@@ -38,7 +39,7 @@ Bottom row → Hex characters A–F
 ---
 
 ## 🎞️ Animated Representation
-<img src="7-segments_Indicator.gif" alt="7-Segment GIF" align="right" width="250"/>
+<img src="7-segments_Indicator.gif" alt="7-Segment GIF" align="right" width="220"/>
 
 This GIF shows how digits and hex characters light up on the display.
 
@@ -78,4 +79,11 @@ This GIF shows how digits and hex characters light up on the display.
 ## 📌 Applications
 - Digital clocks and timers.  
 - Calculators and measuring instruments.  
-- Microcontroller and FPGA projects.  
+- Microcontroller and FPGA projects.
+
+---
+
+## ⭐ Support
+If you found this content helpful, consider giving the repository a **star** 🌟.  
+
+
