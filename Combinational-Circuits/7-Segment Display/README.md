@@ -11,14 +11,14 @@ It consists of **seven LEDs (segments)** arranged in a figure-eight pattern, lab
 - Example: Input `4'h2` → Segments lit to display digit **2**.  
 
 ## 📊 Segment Layout
-
+![7-Segment Layout](attachments/UsACKwHD1dHaNXaz1EMdc.png)
 
 Segments are labeled as:  
 - **a** (top), **b** (top-right), **c** (bottom-right), **d** (bottom),  
 - **e** (bottom-left), **f** (top-left), **g** (middle).
 
 ## 🔢 Digits and Hex Characters
-
+![Digits and Hex Characters](attachments/vTBjjxkEcsMD7Nk8vRJaH.png)
 
 Top row → Digits 0–9  
 Bottom row → Hex characters A–F  
