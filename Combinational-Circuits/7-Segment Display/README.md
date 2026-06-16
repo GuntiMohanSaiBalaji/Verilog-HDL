@@ -4,27 +4,43 @@
 A **7-Segment Display** is a digital display device used to represent decimal numbers (0–9) and hexadecimal characters (A–F).  
 It consists of **seven LEDs (segments)** arranged in a figure-eight pattern, labeled **a–g**.
 
+---
+
 ## ⚙️ Working Principle
 - Each segment can be turned ON or OFF to form digits/characters.  
 - Inputs: 4-bit binary data (0–F).  
 - Output: 7-bit control signals for segments {a,b,c,d,e,f,g}.  
 - Example: Input `4'h2` → Segments lit to display digit **2**.  
 
+---
+
 ## 📊 Segment Layout
-![7-Segment Layout](attachments/UsACKwHD1dHaNXaz1EMdc.png)
+<p align="center">
+  <img src="Segment-labeled.png" alt="7-Segment Layout" width="300"/>
+</p>
 
 Segments are labeled as:  
-- **a** (top), **b** (top-right), **c** (bottom-right), **d** (bottom),  
-- **e** (bottom-left), **f** (top-left), **g** (middle).
+**a** (top), **b** (top-right), **c** (bottom-right), **d** (bottom),  
+**e** (bottom-left), **f** (top-left), **g** (middle).
+
+---
 
 ## 🔢 Digits and Hex Characters
-![Digits and Hex Characters](attachments/vTBjjxkEcsMD7Nk8vRJaH.png)
+<p align="center">
+  <img src="Segment-values.jpg" alt="Digits and Hex Characters" width="500"/>
+</p>
 
 Top row → Digits 0–9  
 Bottom row → Hex characters A–F  
 
+---
+
 ## 🎞️ Animated Representation
-![7-Segment GIF](https://nandland.com/vhdl/modules/images/7-segments_Indicator.gif)
+<p align="center">
+  <img src="7-segments_Indicator.gif" alt="7-Segment GIF" width="400"/>
+</p>
+
+---
 
 ## 🧮 Truth Table (Hex → Segment Pattern)
 
@@ -47,10 +63,14 @@ Bottom row → Hex characters A–F
 | E    | E       | 1001111             |
 | F    | F       | 1000111             |
 
+---
+
 ## ✅ Key Points
-- Simple way to display numbers and hex characters.  
+- Displays numbers and hex characters.  
 - Implemented using combinational logic (case statements in Verilog).  
 - Common in calculators, clocks, counters, and embedded systems.  
+
+---
 
 ## 📌 Applications
 - Digital clocks and timers.  
