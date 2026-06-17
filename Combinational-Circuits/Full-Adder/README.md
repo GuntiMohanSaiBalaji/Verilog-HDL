@@ -18,7 +18,7 @@ It produces two outputs:
   - SUM = A ⊕ B ⊕ C_in  
   - Carry_out = (A · B) + (C_in · (A ⊕ B))  
 
-<img src="full-adder-circuit.png" alt="Full Adder Logic Diagram" align="right" width="120"/>
+<img src="full-adder-circuit.png" alt="Full Adder Logic Diagram" align="right" width="280"/>
 
 ---
 
@@ -38,9 +38,12 @@ It produces two outputs:
 ---
 
 ## 📈 Simulation Waveform
-<img src="Waveform_FullAdder.png" alt="Full Adder Simulation Waveform" align="right" width="250"/>
+<p align="center">
+  <img src="Waveform_FullAdder.png" alt="Full Adder Simulation Waveform" width="600"/>
+</p>
 
 The waveform shows how **SUM** and **Carry_out** change for all input combinations.
+
 
 ---
 
@@ -60,4 +63,3 @@ The waveform shows how **SUM** and **Carry_out** change for all input combinatio
 
 ## ⭐ Support
 If you found this content helpful, consider giving the repository a **star** 🌟.  
-Your support motivates me to keep improving and adding more projects!
