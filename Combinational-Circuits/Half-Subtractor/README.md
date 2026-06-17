@@ -15,7 +15,7 @@ It produces two outputs:
   - Difference = A ⊕ B  
   - Borrow = A' · B  
 
-<img src="Half-Subtractor-Circuit.png" alt="Half Subtractor Logic Diagram" align="right" width="200"/>
+<img src="Half-Subtractor-Circuit.png" alt="Half Subtractor Logic Diagram" align="right" width="280"/>
 
 ---
 
